@@ -2,7 +2,7 @@
 
 A simple Python script to download slides from any SlideShare presentation URL and optionally combine them into a single high-quality PDF document.
 
-## 🛠️ Installation
+## Installation
 
 Before running the script, install the required dependencies using pip:
 
@@ -11,13 +11,17 @@ pip install requests beautifulsoup4 img2pdf
 
 ```
 
-## 🚀 How to Use
+## How to Use
 
 Run the script by executing:
 
 ```bash
 python slideshare_download.py
 
+```
+OR
+```bash
+python3 slideshare_download.py
 ```
 
 Upon launching, the script will prompt you with the following choices:
@@ -45,7 +49,7 @@ python slideshare_download.py [https://www.slideshare.net/JiangweiPan/reward-inn
 
 *(You will still be asked to choose how you want the URL processed).*
 
-## 📁 Output
+## Output
 
 * **If converting to PDF:** A single high-quality PDF file is saved directly in the script's folder, named after the presentation and timestamp (e.g., `presentation-title_20260714_120000.pdf`).
 * **If downloading images:** Slide images are sequence-padded (e.g., `0001.jpg`, `0002.jpg`) and safely isolated in the `pdf_images/` directory.
