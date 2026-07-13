@@ -38,13 +38,14 @@ Enter choice (1/2/3) [Default: 3]:
 * **Option 2:** Convert an existing local folder of images into a PDF (no internet required).
 * **Option 3 (Default):** Download the slides and automatically assemble them into a PDF.
 
+And proceed as asked...
+
 ### Shortcut Mode
 
-You can also pass the SlideShare URL directly as a command-line argument:
+You can also pass the SlideShare URL directly as a command-line argument, for example:
 
 ```bash
-python slideshare_download.py [https://www.slideshare.net/JiangweiPan/reward-innovation-for-longterm-member-satisfaction](https://www.slideshare.net/JiangweiPan/reward-innovation-for-longterm-member-satisfaction)
-
+python slideshare_download.py https://www.slideshare.net/JiangweiPan/reward-innovation-for-longterm-member-satisfaction
 ```
 
 *(You will still be asked to choose how you want the URL processed).*
@@ -54,6 +55,4 @@ python slideshare_download.py [https://www.slideshare.net/JiangweiPan/reward-inn
 * **If converting to PDF:** A single high-quality PDF file is saved directly in the script's folder, named after the presentation and timestamp (e.g., `presentation-title_20260714_120000.pdf`).
 * **If downloading images:** Slide images are sequence-padded (e.g., `0001.jpg`, `0002.jpg`) and safely isolated in the `pdf_images/` directory.
 
-```
 
-```
