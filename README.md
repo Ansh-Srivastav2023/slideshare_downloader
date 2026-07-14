@@ -12,6 +12,12 @@ pip install requests beautifulsoup4 img2pdf
 ```
 
 ## How to Use
+Clone the repository:
+
+```bash
+git clone https://github.com/Ansh-Srivastav2023/slideshare_downloader.git
+cd slideshare_downloader
+```
 
 Run the script by executing:
 
